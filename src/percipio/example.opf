@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<package
+	xmlns="http://www.idpf.org/2007/opf"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:dcterms="http://purl.org/dc/terms/" version="3.0" xml:lang="en" unique-identifier="pub-identifier">
+	<metadata>
+		<meta id="meta-modified" property="dcterms:modified">2021-07-19T04:01:35Z</meta>
+		<dc:identifier id="pub-identifier">urn:isbn:ISBN: 9781484269718</dc:identifier>
+		<meta id="meta-identifier" property="dcterms:identifier">urn:isbn:ISBN: 9781484269718</meta>
+		<dc:title id="pub-title">Test-Driven Development with React: Apply Test-Driven Development in Your Applications</dc:title>
+		<meta property="dcterms:title" id="meta-title">Test-Driven Development with React: Apply Test-Driven Development in Your Applications</meta>
+		<dc:language id="pub-language">EN</dc:language>
+		<meta property="dcterms:language" id="meta-language">EN</meta>
+		<meta id="meta-creator1" property="dcterms:creator">Juntao Qiu</meta>
+		<dc:creator id="pub-creator1">Juntao Qiu</dc:creator>
+		<meta id="meta-publisher" property="dcterms:publisher">Apress</meta>
+		<dc:publisher id="pub-publisher">Apress</dc:publisher>
+		<meta id="meta-date" property="dcterms:date">2021</meta>
+		<dc:date id="pub-date">2021</dc:date>
+		<meta id="meta-rights" property="dcterms:rights">Copyright @ 2021 Juntao Qiu</meta>
+		<dc:rights id="pub-rights">Copyright @ 2021 Juntao Qiu</dc:rights>
+		<meta id="meta-rightsholder" property="dcterms:rightsHolder">Juntao Qiu</meta>
+		<meta property="schema:accessMode">textual</meta>
+		<meta property="schema:accessMode">visual</meta>
+		<meta property="schema:accessModeSufficient">textual</meta>
+	</metadata>
+	<manifest>
+		<item id="ncx" href="toc.ncx" media-type="application/x-dtbncx+xml" />
+		<item id="htmltoc" properties="nav" media-type="application/xhtml+xml" href="toc.xhtml" />
+		<item media-type="text/css" id="docbook-css" href="docbook-epub.css" />
+		<item id="gf8ba3a48-430c-45bb-9a8e-7ba1fcb8d0b0" href="book-0.xhtml" media-type="application/xhtml+xml" />
+		<item id="pre01" href="preface-1.xhtml" media-type="application/xhtml+xml" />
+		<item id="pre02" href="preface-2.xhtml" media-type="application/xhtml+xml" />
+		<item id="pre03" href="preface-3.xhtml" media-type="application/xhtml+xml" />
+		<item id="intro_s1_2" href="section-4.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch01" href="chapter-1-5.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch01_s1_2" href="section-6.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch01_s1_3" href="section-7.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch01_s1_4" href="section-8.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch01_s1_5" href="section-9.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch02" href="chapter-2-10.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch02_s1_1" href="section-11.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch02_s1_2" href="section-12.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch02_s1_3" href="section-13.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch02_s1_4" href="section-14.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch02_s1_5" href="section-15.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch03" href="chapter-3-16.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch03_s1_1" href="section-17.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch03_s1_2" href="section-18.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch03_s1_3" href="section-19.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch03_s1_4" href="section-20.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch04" href="chapter-4-21.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch04_s1_1" href="section-22.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch04_s1_2" href="section-23.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch04_s1_3" href="section-24.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch05" href="chapter-5-25.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch05_s1_1" href="section-26.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch05_s1_2" href="section-27.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch05_s1_3" href="section-28.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch06" href="chapter-6-29.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch06_s1_1" href="section-30.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch06_s1_2" href="section-31.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch06_s1_3" href="section-32.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch06_s1_4" href="section-33.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch06_s1_5" href="section-34.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch06_s1_6" href="section-35.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch06_s1_7" href="section-36.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch07" href="chapter-7-37.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch07_s1_1" href="section-38.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch07_s1_2" href="section-39.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch07_s1_3" href="section-40.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch08" href="chapter-8-41.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch08_s1_1" href="section-42.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch08_s1_2" href="section-43.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch08_s1_3" href="section-44.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch08_s1_4" href="section-45.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch08_s1_5" href="section-46.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch08_s1_6" href="section-47.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch08_s1_7" href="section-48.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch08_s1_8" href="section-49.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch08_s1_9" href="section-50.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch08_s1_10" href="section-51.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch09" href="chapter-9-52.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch09_s1_1" href="section-53.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch09_s1_2" href="section-54.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch09_s1_3" href="section-55.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch09_s1_4" href="section-56.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch10" href="chapter-10-57.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch10_s1_1" href="section-58.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch10_s1_2" href="section-59.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch10_s1_3" href="section-60.xhtml" media-type="application/xhtml+xml" />
+		<item id="ch10_s1_4" href="section-61.xhtml" media-type="application/xhtml+xml" />
+		<item id="app01" href="appendix-A-62.xhtml" media-type="application/xhtml+xml" />
+		<item id="app_s1_1" href="section-63.xhtml" media-type="application/xhtml+xml" />
+		<item id="app_s1_2" href="section-64.xhtml" media-type="application/xhtml+xml" />
+		<item id="app02" href="appendix-B-65.xhtml" media-type="application/xhtml+xml" />
+		<item id="appB_s1_2" href="section-66.xhtml" media-type="application/xhtml+xml" />
+		<item id="index01" href="index-67.xhtml" media-type="application/xhtml+xml" />
+		<item id="appendix-1624844827778" href="appendix-68.xhtml" media-type="application/xhtml+xml" />
+		<item id="appendix-1624844830747" href="appendix-69.xhtml" media-type="application/xhtml+xml" />
+		<item id="img1" href="../images/510354_1_en_bookfrontmatter_figb_html.jpg" media-type="image/jpeg" />
+		<item id="img2" href="../images/510354_1_en_bookfrontmatter_figc_html.jpg" media-type="image/jpeg" />
+		<item id="img3" href="../images/510354_1_en_1_fig1_html_0.jpg" media-type="image/jpeg" />
+		<item id="img4" href="../images/510354_1_en_1_fig2_html_0.jpg" media-type="image/jpeg" />
+		<item id="img5" href="../images/510354_1_en_1_fig3_html_0.jpg" media-type="image/jpeg" />
+		<item id="img6" href="../images/510354_1_en_1_fig4_html_0.jpg" media-type="image/jpeg" />
+		<item id="img7" href="../images/ch02_ineqn01.jpg" media-type="image/jpeg" />
+		<item id="img8" href="../images/510354_1_en_2_fig1_html_0.jpg" media-type="image/jpeg" />
+		<item id="img9" href="../images/510354_1_en_3_fig1_html_0.jpg" media-type="image/jpeg" />
+		<item id="img10" href="../images/510354_1_en_4_fig1_html_0.jpg" media-type="image/jpeg" />
+		<item id="img11" href="../images/510354_1_en_4_fig2_html_0.jpg" media-type="image/jpeg" />
+		<item id="img12" href="../images/510354_1_en_4_fig3_html_0.jpg" media-type="image/jpeg" />
+		<item id="img13" href="../images/510354_1_en_4_fig4_html_0.jpg" media-type="image/jpeg" />
+		<item id="img14" href="../images/510354_1_en_4_fig5_html_0.jpg" media-type="image/jpeg" />
+		<item id="img15" href="../images/510354_1_en_4_fig6_html_0.jpg" media-type="image/jpeg" />
+		<item id="img16" href="../images/510354_1_en_4_fig7_html_0.jpg" media-type="image/jpeg" />
+		<item id="img17" href="../images/510354_1_en_5_fig1_html_0.jpg" media-type="image/jpeg" />
+		<item id="img18" href="../images/510354_1_en_5_fig2_html_0.jpg" media-type="image/jpeg" />
+		<item id="img19" href="../images/510354_1_en_5_fig3_html_0.jpg" media-type="image/jpeg" />
+		<item id="img20" href="../images/510354_1_en_5_fig4_html_0.jpg" media-type="image/jpeg" />
+		<item id="img21" href="../images/510354_1_en_6_fig1_html_0.jpg" media-type="image/jpeg" />
+		<item id="img22" href="../images/510354_1_en_6_fig2_html_0.jpg" media-type="image/jpeg" />
+		<item id="img23" href="../images/510354_1_en_6_fig3_html_0.jpg" media-type="image/jpeg" />
+		<item id="img24" href="../images/510354_1_en_6_fig4_html_0.jpg" media-type="image/jpeg" />
+		<item id="img25" href="../images/510354_1_en_6_fig5_html_0.jpg" media-type="image/jpeg" />
+		<item id="img26" href="../images/510354_1_en_7_fig1_html_0.jpg" media-type="image/jpeg" />
+		<item id="img27" href="../images/510354_1_en_7_fig2_html_0.jpg" media-type="image/jpeg" />
+		<item id="img28" href="../images/510354_1_en_8_fig1_html_0.jpg" media-type="image/jpeg" />
+		<item id="img29" href="../images/510354_1_en_8_fig2_html_0.jpg" media-type="image/jpeg" />
+		<item id="img30" href="../images/510354_1_en_8_fig3_html_0.jpg" media-type="image/jpeg" />
+		<item id="img31" href="../images/510354_1_en_9_fig1_html_0.jpg" media-type="image/jpeg" />
+		<item id="img32" href="../images/510354_1_en_9_fig2_html_0.jpg" media-type="image/jpeg" />
+		<item id="img33" href="../images/510354_1_en_9_fig3_html_0.jpg" media-type="image/jpeg" />
+		<item id="img34" href="../images/510354_1_en_9_fig4_html_0.jpg" media-type="image/jpeg" />
+		<item id="img35" href="../images/510354_1_en_10_fig1_html_0.jpg" media-type="image/jpeg" />
+		<item id="img36" href="../images/510354_1_en_10_fig2_html_0.jpg" media-type="image/jpeg" />
+		<item id="img37" href="../images/appa_fig1_html_0.jpg" media-type="image/jpeg" />
+		<item id="img38" href="../images/appa_fig2_html_0.jpg" media-type="image/jpeg" />
+		<item id="img39" href="../images/appb_fig1_html_0.jpg" media-type="image/jpeg" />
+		<item id="img40" href="../images/appb_fig2_html_0.jpg" media-type="image/jpeg" />
+	</manifest>
+	<spine toc="ncx">
+		<itemref idref="htmltoc" linear="yes" />
+		<itemref idref="gf8ba3a48-430c-45bb-9a8e-7ba1fcb8d0b0" />
+		<itemref idref="pre01" />
+		<itemref idref="pre02" />
+		<itemref idref="pre03" />
+		<itemref idref="intro_s1_2" />
+		<itemref idref="ch01" />
+		<itemref idref="ch01_s1_2" />
+		<itemref idref="ch01_s1_3" />
+		<itemref idref="ch01_s1_4" />
+		<itemref idref="ch01_s1_5" />
+		<itemref idref="ch02" />
+		<itemref idref="ch02_s1_1" />
+		<itemref idref="ch02_s1_2" />
+		<itemref idref="ch02_s1_3" />
+		<itemref idref="ch02_s1_4" />
+		<itemref idref="ch02_s1_5" />
+		<itemref idref="ch03" />
+		<itemref idref="ch03_s1_1" />
+		<itemref idref="ch03_s1_2" />
+		<itemref idref="ch03_s1_3" />
+		<itemref idref="ch03_s1_4" />
+		<itemref idref="ch04" />
+		<itemref idref="ch04_s1_1" />
+		<itemref idref="ch04_s1_2" />
+		<itemref idref="ch04_s1_3" />
+		<itemref idref="ch05" />
+		<itemref idref="ch05_s1_1" />
+		<itemref idref="ch05_s1_2" />
+		<itemref idref="ch05_s1_3" />
+		<itemref idref="ch06" />
+		<itemref idref="ch06_s1_1" />
+		<itemref idref="ch06_s1_2" />
+		<itemref idref="ch06_s1_3" />
+		<itemref idref="ch06_s1_4" />
+		<itemref idref="ch06_s1_5" />
+		<itemref idref="ch06_s1_6" />
+		<itemref idref="ch06_s1_7" />
+		<itemref idref="ch07" />
+		<itemref idref="ch07_s1_1" />
+		<itemref idref="ch07_s1_2" />
+		<itemref idref="ch07_s1_3" />
+		<itemref idref="ch08" />
+		<itemref idref="ch08_s1_1" />
+		<itemref idref="ch08_s1_2" />
+		<itemref idref="ch08_s1_3" />
+		<itemref idref="ch08_s1_4" />
+		<itemref idref="ch08_s1_5" />
+		<itemref idref="ch08_s1_6" />
+		<itemref idref="ch08_s1_7" />
+		<itemref idref="ch08_s1_8" />
+		<itemref idref="ch08_s1_9" />
+		<itemref idref="ch08_s1_10" />
+		<itemref idref="ch09" />
+		<itemref idref="ch09_s1_1" />
+		<itemref idref="ch09_s1_2" />
+		<itemref idref="ch09_s1_3" />
+		<itemref idref="ch09_s1_4" />
+		<itemref idref="ch10" />
+		<itemref idref="ch10_s1_1" />
+		<itemref idref="ch10_s1_2" />
+		<itemref idref="ch10_s1_3" />
+		<itemref idref="ch10_s1_4" />
+		<itemref idref="app01" />
+		<itemref idref="app_s1_1" />
+		<itemref idref="app_s1_2" />
+		<itemref idref="app02" />
+		<itemref idref="appB_s1_2" />
+		<itemref idref="index01" />
+		<itemref idref="appendix-1624844827778" />
+		<itemref idref="appendix-1624844830747" />
+	</spine>
+	<guide>
+		<reference href="toc.xhtml" type="toc" title="Table of Contents" />
+	</guide>
+</package>

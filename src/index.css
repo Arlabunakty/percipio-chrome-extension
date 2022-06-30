@@ -1,0 +1,8 @@
+html, body {
+  height: 600px;
+  width: 800px;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
