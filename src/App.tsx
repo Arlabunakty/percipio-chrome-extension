@@ -1,129 +1,73 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import "./App.css";
 import logger from "./logging";
-import OpfParser from "./percipio/OpfParser";
+import useStorage from "./chrome/useStorage";
+import useDownloadItems from "./chrome/useDownloadItems";
+import downloadBook from "./percipio/downloadBook";
+import downloadAudioOrCourse from "./percipio/downloadAudioOrCourse";
 
 export const App = () => {
-  const [tabId, setTabId] = useState<number | undefined>(undefined);
-  const [url, setUrl] = useState<string>("");
-  const [book, setBook] = useState<string>("");
-  const [downloadItems, setDownloadItems] = useState<Map<string, any>>(
-    new Map()
-  );
+  const [candidate, setCandidate] = useState<string>("");
+  const { url: url} = useStorage(loadCandidate);
 
-  function loadBook(message: any) {
-    fetch(message.url)
-      .then(async (data) => {
-        const body = await data.text();
-        logger.devVerbose(body);
-        const links = OpfParser.parse(body);
-        logger.devVerbose(links);
-        setBook(body);
+  const [downloadItems, setDownloadItems] = useDownloadItems();
+
+  function loadCandidate(message: any) {
+    const requestInit: RequestInit = {};
+    if (message.body) {
+      requestInit.method = message.method;
+      requestInit.body = message.body;
+    }
+    const headers =
+      message.url.indexOf(".opf") < 0 && message.headers ? message.headers : [];
+    if (headers.length !== 0) {
+      requestInit.headers = headers;
+    }
+    fetch(message.url, requestInit)
+      .then(async (response) => {
+        const candidateMeta = await response.text();
+        setCandidate(candidateMeta);
+        setDownloadItems(new Map());
       })
       .catch(logger.alertRuntimeException);
   }
 
-  function listener(
-    message: any,
-    sender: chrome.runtime.MessageSender,
-    sendResponse: (response: any) => void
-  ) {
-    logger.devVerbose("Trace runtime.onMessage");
-    logger.devVerbose("runtime.onMessage =", message);
-    logger.devVerbose("Sender =" + sender);
-
-    loadBook(message.message);
-
-    sendResponse(true);
-
-    return true;
-  }
-
-  function listenDownloadItems(downloadItem: chrome.downloads.DownloadDelta) {
-    const key = `${downloadItem.id}`;
-    const item = downloadItems.get(key);
-    if (!item) return;
-
-    if (downloadItem.state?.current) {
-      const new1 =new Map(
-        downloadItems.set(key, {
-          ...item,
-          status: downloadItem.state?.current,
-        })
-      );
-      setDownloadItems(new1);
-    }
-  }
-
-  useEffect(() => {
-    chrome.storage.local.get(["url", "tabId"]).then((data) => {
-      logger.devVerbose(data);
-
-      const queryInfo = { active: true, lastFocusedWindow: true };
-    chrome.tabs &&
-      chrome.tabs.query(queryInfo, (tabs) => {
-        logger.devDebug(tabs);
-        if (tabs.length === 0) return;
-        if (tabs[0].id !== data.tabId) return;
-        data.url && loadBook(data);
-        data.url && setUrl(data.url);
-        data.tabId && setTabId(data.tabId);
-      });
-    });
-
-    chrome.downloads.onChanged.addListener(listenDownloadItems);
-    // chrome.runtime.onMessage.addListener(listener);
-    return () => {
-      // chrome.runtime.onMessage.removeListener(listener);
-      chrome.downloads.onChanged.removeListener(listenDownloadItems);
-    };
-  }, []);
-
-  function downloadFile(urlString: string) {
-    logger.devVerbose(`downoading file: ${urlString}`);
-    const url1 = new URL(urlString);
-    const filename = url1.pathname.substring(
-      url1.pathname.lastIndexOf("/"),
-      url1.pathname.length
-    );
-    const options: chrome.downloads.DownloadOptions = {
-      saveAs: false,
-      url: urlString,
-      filename: `book/${filename}`,
-      conflictAction: "overwrite",
-    };
-    chrome.downloads.download(options, (id: number): void => {
-      const key = `${id}`;
+  const downloadCandidate = () => {
+    function callback(key: string, filename: string) {
       setDownloadItems(
         new Map(downloadItems.set(key, { name: filename, status: "created" }))
       );
-    });
-  }
+    }
 
-  const downloadBook = () => {
-    downloadFile(url);
-    const path = url.substring(0, url.lastIndexOf("/"));
-    const links = OpfParser.parse(book);
-    for (const link of links) {
-      downloadFile(path + "/" + link);
+    try {
+      downloadAudioOrCourse(candidate, callback);
+    } catch (e) {
+      downloadBook(url, candidate, callback);
     }
   };
 
+  const array = Array.from(downloadItems.keys());
   return (
     <div>
       <header>
         <p>URL:</p>
         <p>{url}</p>
-        <button onClick={downloadBook}>DOWNLOAD BOOK</button>
+        <button onClick={downloadCandidate}>DOWNLOAD</button>
       </header>
-      <p>Found book:</p>
-      {Array.from(downloadItems.keys())
+      {array.length !== 0 && <p>Downloads:</p>}
+      {array
         .map((key) => downloadItems.get(key))
         .map((downloadItem) => (
           <p>
             {downloadItem.name} - {downloadItem.status}
           </p>
         ))}
+      {candidate && (
+        <span>
+          <p>Book:</p>
+          <p>{candidate}</p>
+        </span>
+      )}
     </div>
   );
 };

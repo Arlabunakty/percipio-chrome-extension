@@ -6,7 +6,8 @@ test("parsing", async () => {
 
     const opf = parser.parse(example);
     
-    expect(opf).toEqual([
+    expect(opf.isbn).toEqual("9781484269718");
+    expect(opf.links).toEqual([
         "toc.ncx",
         "toc.xhtml",
         "docbook-epub.css",
@@ -119,6 +120,5 @@ test("parsing", async () => {
         "../images/appa_fig1_html_0.jpg",
         "../images/appa_fig2_html_0.jpg",
         "../images/appb_fig1_html_0.jpg",
-        "../images/appb_fig2_html_0.jpg",
-        "toc.xhtml"]);
+        "../images/appb_fig2_html_0.jpg"]);
 });

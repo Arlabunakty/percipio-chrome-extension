@@ -11,6 +11,7 @@ module.exports = {
           ].filter(Boolean),
           content: "./src/chrome/content.ts",
           background: "./src/chrome/background.ts",
+          devtools: "./src/chrome/devtools.ts",
         },
         output: {
           ...webpackConfig.output,
@@ -20,7 +21,6 @@ module.exports = {
           ...webpackConfig.optimization,
           runtimeChunk: false,
           minimize: false,
-          //   removeEmptyChunks: false,
         },
       };
     },

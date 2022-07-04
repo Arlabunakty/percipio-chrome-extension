@@ -1,6 +1,6 @@
 {
-  "name": "Hello Extensions",
-  "description": "Base Level Extension",
+  "name": "Percipio downloader",
+  "description": "Allows to downlaod books, audiobooks and courses",
   "version": "1.0",
   "manifest_version": 3,
   "action": {
@@ -13,7 +13,7 @@
     "128": "logo192.png"
   },
   "permissions": [
-    "tabs", "webRequest", "storage", "downloads"
+    "tabs", "webRequest", "storage", "downloads", "webNavigation", "alarms"
   ],
   "host_permissions": ["https://*.percipio.com/*"],
   "background": {

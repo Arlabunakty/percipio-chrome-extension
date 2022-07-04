@@ -1,0 +1,240 @@
+[
+  {
+    "data": {
+      "bulkWithLT": [
+        {
+          "id": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "title": "Delegation & Supervision",
+          "type": "AUDIOBOOK",
+          "completionStatus": "NOT_STARTED",
+          "__typename": "AudioBook",
+          "description": "<p> Managers are judged by the results they deliver--and more than anything else, those results hinge on the ability to delegate and supervise. You will be surprised at how efficient and easy to manage your team becomes when you master these essential skills.</p>\r\n<p>Done right, delegation and supervision allow your employees to learn, grow, and become more capable. Your success will skyrocket as you increase the quality and quantity of results, and build the loyalty, involvement, and commitment of your people.</p>",
+          "licensed": true,
+          "modality": "LISTEN",
+          "languageCode": "en",
+          "locale": "en-US",
+          "hidden": false,
+          "authors": [{ "name": "Brian Tracy", "__typename": "BookAuthor" }],
+          "publisherName": "Gildan Media",
+          "copyrightYear": 2013,
+          "durationInMinutes": 129,
+          "form": "FULL",
+          "summary": "This audio edition reveals time-tested ways to boost the performance and productivity of your employees. Read by the author.",
+          "imageUrl": "https://images.books24x7.com/coverimages/115235.png"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "audioBookChapters": [
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "00:24",
+          "title": "Introduction",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "03:27",
+          "title": "Chapter One: Develop Your Most Valuable Resource",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "06:08",
+          "title": "Chapter Two: Challenge the Myths that Block Effective Delegation",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "11:22",
+          "title": "Chapter Three: The Starting Point of Delegation",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "17:18",
+          "title": "Chapter Four: The Factory Model of Management",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "24:17",
+          "title": "Chapter Five: Determine Your Key Result Areas",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "32:07",
+          "title": "Chapter Six: Set Standards of Excellent Performance",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "40:37",
+          "title": "Chapter Seven: Management by Objectives",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "47:37",
+          "title": "Chapter Eight: The Three Qualities of the Best Bosses",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "55:08",
+          "title": "Chapter Nine: The Seven Keys to Effective Delegation",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "01:02:37",
+          "title": "Chapter Ten: Manage by Exception",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "01:06:40",
+          "title": "Chapter Eleven: See Yourself as a Teacher",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "01:12:01",
+          "title": "Chapter Tweleve: Build Confidence in Your Staff",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "01:16:16",
+          "title": "Chapter Thirteen: Delegate Decision Making",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "01:23:58",
+          "title": "Chapter Fourteen: Inspect What You Expect",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "01:27:21",
+          "title": "Chapter Fifteen: Build Your People with Regular Feedback",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "01:33:22",
+          "title": "Chapter Sixteen: Motivate Your Staff Continually",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "01:39:47",
+          "title": "Chapter Seventeen: Practice Situational Leadership",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "01:43:23",
+          "title": "Chapter Eighteen: Identify the Four Personality Types",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "01:53:02",
+          "title": "Chapter Nineteen: Three Leadership Styles",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "01:58:35",
+          "title": "Chapter Twenty: Avoid Reverse Delegation",
+          "__typename": "AudiobookChapter"
+        },
+        {
+          "audioBookId": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+          "landmark": "bodymatter",
+          "timeCode": "02:05:31",
+          "title": "Chapter Twenty-One: Five Keys to Managerial Effectiveness",
+          "__typename": "AudiobookChapter"
+        }
+      ]
+    }
+  },
+  {
+    "data": {
+      "audiobookWithLT": {
+        "id": "9ea38cc0-251c-11e7-a756-0242c0a80602",
+        "title": "Delegation & Supervision",
+        "type": "AudioBook",
+        "completionStatus": "NOT_STARTED",
+        "__typename": "AudioBook",
+        "reportInterval": 30000,
+        "attachedMedia": [
+          {
+            "description": "mp4 audio",
+            "fileSizeInBytes": 39386040,
+            "fileUrl": "https://cdn2.percipio.com/1656832412.4da6de1d83806f5d78c365aec68e3ca717945ce9/eod/books/115235/downloadmedia/Books24x7-Delegation_&_Supervision-Audio.mp4",
+            "id": "9ea190f0-251c-11e7-a756-0242c0a80602",
+            "__typename": "BookMedia"
+          }
+        ],
+        "authors": [
+          { "authorName": "Brian Tracy", "__typename": "BookAuthor" }
+        ],
+        "backCoverHtml": "<p> Managers are judged by the results they deliver--and more than anything else, those results hinge on the ability to delegate and supervise. You will be surprised at how efficient and easy to manage your team becomes when you master these essential skills.</p>\r\n<p>Done right, delegation and supervision allow your employees to learn, grow, and become more capable. Your success will skyrocket as you increase the quality and quantity of results, and build the loyalty, involvement, and commitment of your people.</p>",
+        "copyrightOwner": null,
+        "copyrightYear": 2013,
+        "imageUrl": "https://images.books24x7.com/coverimages/115235.png",
+        "description": "<p> Managers are judged by the results they deliver--and more than anything else, those results hinge on the ability to delegate and supervise. You will be surprised at how efficient and easy to manage your team becomes when you master these essential skills.</p>\r\n<p>Done right, delegation and supervision allow your employees to learn, grow, and become more capable. Your success will skyrocket as you increase the quality and quantity of results, and build the loyalty, involvement, and commitment of your people.</p>",
+        "durationInMinutes": 129,
+        "durationInSeconds": 7744,
+        "expertiseLevel": "Everyone",
+        "form": "FULL",
+        "imprintName": "Gildan Media",
+        "isbn": "9781469027548",
+        "languageCode": "en",
+        "completionObject": {
+          "lastCuePoint": null,
+          "__typename": "completionStatusType"
+        },
+        "licensed": true,
+        "modality": "LISTEN",
+        "publisherName": "Gildan Media",
+        "status": "Available",
+        "subject": null,
+        "summary": "This audio edition reveals time-tested ways to boost the performance and productivity of your employees. Read by the author.",
+        "technology": {
+          "title": null,
+          "version": null,
+          "__typename": "TechnologyType"
+        },
+        "pin": null
+      }
+    }
+  }
+]
